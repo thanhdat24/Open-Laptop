@@ -4,7 +4,7 @@ import requests
 import os
 
 TOKEN = os.getenv("BOT_TOKEN")
-WAKE_SERVER = os.getenv("WAKE_SERVER", "http://127.0.0.1:5000/wake")  # Lấy từ Railway
+WAKE_SERVER = os.getenv("WAKE_SERVER", "https://open-laptop.railway.app/wake")
 
 app = Application.builder().token(TOKEN).build()
 
