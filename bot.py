@@ -4,7 +4,8 @@ import requests
 import os
 
 TOKEN = os.getenv("BOT_TOKEN")
-WAKE_SERVER = os.getenv("WAKE_SERVER", "https://open-laptop.railway.app/wake")
+WAKE_SERVER = os.getenv("WAKE_SERVER", "https://open-laptop-production.up.railway.app/wake")
+
 
 app = Application.builder().token(TOKEN).build()
 
