@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, CallbackContext
 import requests
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = "7834270003:AAGiLVUPAeCcjKpUgbXT3SLyfgTBoNxw4v0"
 WAKE_SERVER = os.getenv("WAKE_SERVER", "https://open-laptop-production.up.railway.app/wake")
 
 
