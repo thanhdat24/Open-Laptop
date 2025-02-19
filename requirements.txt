@@ -3,3 +3,4 @@ wakeonlan
 flask
 python-dotenv
 requests
+gunicorn
