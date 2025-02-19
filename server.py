@@ -16,6 +16,6 @@ def wake_pc():
         return f"❌ Lỗi: {str(e)}", 500
 
 if __name__ == '__main__':
+    # Lấy cổng từ biến môi trường, mặc định là 8080 nếu không có
     app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 8080)))
-
 
