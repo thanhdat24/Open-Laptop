@@ -1,6 +1,6 @@
+gunicorn
 python-telegram-bot==20.0
 wakeonlan
 flask
 python-dotenv
 requests
-gunicorn
