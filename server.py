@@ -17,5 +17,5 @@ def wake_pc():
 
 if __name__ == '__main__':
     # Lấy cổng từ biến môi trường, mặc định là 8080 nếu không có
-    port = int(os.environ.get("PORT", 8080))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 8080)))
+
